@@ -1,6 +1,7 @@
-#Name: Jason Woodson
-#Date: 1/17/2021
-#Purpose: Looking at each team's distribution of shot's based on when it was taken in the 24 second shot clock and each team's EFG% for that interval
+# File name: Shot_Clock_Distribution.py
+# Author: Jason Woodson
+# Date: 1/17/2021
+# Purpose: Looking at each team's distribution of shot's based on when it was taken in the 24 second shot clock and each team's EFG% for that interval
 
 
 #import applicable modules
