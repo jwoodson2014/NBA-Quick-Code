@@ -86,8 +86,6 @@ p1 <- gl_summ %>%
            axis.text.x = element_blank(),
            axis.ticks = element_blank())
 
-p1
-
 # save the plot
 ggsave('NewPlayer_Game1.png', dpi = 300)
 
