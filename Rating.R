@@ -61,8 +61,7 @@ df %>%
         panel.grid.minor = element_blank(),
         plot.title = element_text(face = 'bold'),
         plot.subtitle = element_text(face = 'bold'),
-        axis.title.y = element_text(angle = -90, 
-                                    face = 'bold'),
+        axis.title.y = element_text(face = 'bold'),
         axis.title.x = element_text(face = 'bold'),
         axis.ticks.y = element_blank(),
         axis.ticks.x = element_blank())
