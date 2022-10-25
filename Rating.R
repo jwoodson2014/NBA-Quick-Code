@@ -42,11 +42,11 @@ df %>%
            size = 2.5)+
   annotate('label', x = 120, y = 98, label = 'Bad O, Bad D',
            size = 2.5)+
-  annotate('rect', xmin = min(df$DEF_RATING)-2, xmax = median(df$DEF_RATING),
+  annotate('rect', xmin = min(df$DEF_RATING), xmax = median(df$DEF_RATING),
            ymin = median(df$OFF_RATING), ymax = max(df$OFF_RATING)+2,
            alpha = .1, fill = 'green')+
   annotate('rect', xmin = median(df$DEF_RATING), xmax = max(df$DEF_RATING)+1,
-           ymin = min(df$OFF_RATING)-1, ymax = median(df$OFF_RATING),
+           ymin = min(df$OFF_RATING), ymax = median(df$OFF_RATING),
            alpha = .1, fill = 'red')+
   ggtitle('Net Rating Landscape',
           subtitle = '10/25/2022')+
